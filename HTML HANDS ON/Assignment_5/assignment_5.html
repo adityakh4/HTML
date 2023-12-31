@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>Employee Enrollment</title>
+    <style>
+      table {
+        align-items: left;
+      }
+      td {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="get">
+      <table border="1px">
+        <tr>
+          <td>Name</td>
+          <td align="left"><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Employee Code</td>
+          <td><input style="width: 50px" /></td>
+        </tr>
+        <tr>
+          <td>Department</td>
+          <td>
+            <label><input type="radio" name="dept" /> ADMIN</label> <br />
+            <label><input type="radio" name="dept" /> HR </label><br />
+            <label><input type="radio" name="dept" /> TECHNICAL</label> <br />
+            <label><input type="radio" name="dept" />ACCOUNTS </label><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Date of Joining</td>
+          <td>
+            <input
+              type="number"
+              maxlength="2"
+              min="1"
+              max="31"
+              style="width: 45px"
+            />&nbsp;/
+            <input
+              type="number"
+              maxlength="2"
+              min="1"
+              max="12"
+              style="width: 45px"
+            />&nbsp;/
+            <input
+              type="number"
+              maxlength="4"
+              min="2000"
+              max="2050"
+              style="width: 80px"
+            /><br />
+            &nbsp;&nbsp;&nbsp;&nbsp;DD
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            YYYY
+          </td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>
+            <textarea cols="55" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Training Programs Attended</td>
+          <td>
+            <label><input type="checkbox" />HTML/DHTML</label><br />
+            <label><input type="checkbox" />JAVA</label><br />
+            <label><input type="checkbox" />CLIENT/SERVER</label><br />
+            <label><input type="checkbox" />.NET</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Training Programs need to attend</td>
+          <td>
+            <select size="2">
+              <option>JAVASCRIPT</option>
+              <option>JSTRUTS</option>
+              <option>Python</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Send Information at</td>
+          <td><a href="#">empinfo@patni.com</a></td>
+        </tr>
+      </table>
+      <br />
+      <button type="submit">Submit</button>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

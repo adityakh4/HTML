@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Employee enrollment</title>
+        <style>
+            table{
+                align-items: left;
+            }
+            td{
+                background-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="get">
+            <table border="1px">
+        <tr>
+            <th>Name</th>
+            <td align="left"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Employee code</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Department</td>
+        <td>
+            <label><input type="radio" name="dept">ADMIN</label> <br />
+            <label><input type="radio" name="dept">HR</label><br/>
+            <label><input type="radio" name="dept">Technical</label> <br />
+            <label><input type="radio" name="dept">Accounts</label><br/>
+        </td> 
+        </tr>
+        <tr>
+            <td>Date of joining</td>
+            <td>
+                <input type="number" maxlength="2" min="1" max="31" style="width: 50px">&nbsp;
+                <input type="number" maxlength="2" min="1" max="12" style="width: 45px">&nbsp;
+                <input type="number" maxlength="4" min="2000" max="2050" style="width: 80px"><br />
+            </td>
+        </tr>
+        
+        
+    </body>
+</html>
